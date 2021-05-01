@@ -1,0 +1,11 @@
+numpy
+opencv-python
+sklearn
+pandas
+tensorflow
+matploltlib
+scipy
+pywin32
+speedtest-cli
+pyqt5
+pyqtgraph
