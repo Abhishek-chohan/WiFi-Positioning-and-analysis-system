@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>948</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>951</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+Background-color:white
+}</string>
+    </property>
+    <property name="text">
+     <string>NETWORK  MONITORING</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>951</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::DashLine</enum>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>160</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>true</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Network type</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Authentication</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Encryption</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>BSSID</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Signal</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>New Row</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Channel</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Device Property</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 4</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 5</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 6</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 7</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 8</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 9</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 10</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 11</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 12</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 13</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 14</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 15</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 16</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 17</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 18</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 19</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Device 20</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>440</y>
+      <width>951</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>network.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
